@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TransRecoBus</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+     <!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico"> -->
+
+</head>
+<body>
+  <div id="loader"> 
+    <h1>Trans</h1> 
+    <h1>Reco</h1>  
+    <h1>Bus</h1>   
+  </div>
+  <div id="mainly">
+    <div id="page1">
+        <div id="nav">
+            <div id="logo">
+              <h3>TransRecoBus</h3>
+            </div>
+          
+            <div id="corner">
+              <!-- PLATFORM -->
+              <div class="nav-item">
+                <h3>Platform</h3>
+                <div class="dropdown">
+                  <a href="#">Feature 1</a>
+                  <a href="#">Feature 2</a>
+                  <a href="#">Feature 3</a>
+                  <a href="#">Feature 4</a>
+                  <a href="#">Feature 5</a>
+                  <a href="#">Feature 6</a>
+                  <a href="#">Feature 7</a>
+                </div>
+              </div>
+          
+              <!-- SOLUTIONS -->
+              <div class="nav-item">
+                <h3>Solutions</h3>
+                <div class="dropdown">
+                  <a href="#">Student</a>
+                  <a href="#">Teachers</a>
+                  <a href="#">Freelancers</a>
+                </div>
+              </div>
+          
+              <!-- RESOURCES -->
+              <div class="nav-item">
+                <h3>Resources</h3>
+                <div class="dropdown">
+                  <a href="#">Blog</a>
+                  <a href="#">Help Center</a>
+                  <a href="#">Contact</a>
+                </div>
+              </div>
+            </div>
+          </div>
+       <div class="page1content">
+        <h3>Space that gets handwritten notes!!<br><br>TranRecoBus enables you to automatically recognise text easily, edit seamlessly, collaborate effortlessly, and even train your custom AI for digitizing and interpreting historical documents of any form.</h3>
+        <video autoplay loop muted src="video.mp4"></video>
+      </div>   
+    </div>
+    <div id="main">
+        <div id="left">
+            <div id="leftcontent">
+                <h4 id="h4">“Bringing the personal touch back to digital notes.”<br>
+                    “Your typed notes, now in your handwriting.</h4>
+                <button id="input_btn"><label id="label" for="fileinput">Insert image</label></button>
+                <div id="img"><input type="file" id="fileinput" accept="image" placeholder="Insert"/> 
+                    <img id="preview">
+                 </div>
+                 <div id="removebtn"><button id="removeBtn" style="display: none;">Remove Image</button>
+                </div>
+            
+                 
+        </div>
+        </div>
+        <div id="right"></div>
+    </div>
+    <div id="lastpage"></div>
+  </div>
+    <div class="footer">
+      <h3>Scan it. Train it. Trust it.</h3>
+      <h1>TransRecoBus</h1>
+      <p>TransRecoBus © 2025 — Empowering your documents with AI precision.</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js" integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
